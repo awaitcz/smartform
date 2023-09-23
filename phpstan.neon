@@ -1,0 +1,12 @@
+includes:
+	- vendor/phpstan/phpstan-nette/extension.neon
+	- vendor/phpstan/phpstan-nette/rules.neon
+
+parameters:
+    level: 8
+    tmpDir: %currentWorkingDirectory%/temp
+    fileExtensions:
+        - php
+    paths:
+        - src
+        - tests
